@@ -5,10 +5,10 @@
   <div class="max-w-[1200px] mx-auto px-6">
     <div class="text-center mb-16">
       <h2 class="text-5xl font-bold mb-6 tracking-tight">
-        One-click Bill of Materials
+        Intelligent Assembly Sequences
       </h2>
       <p class="text-gray-400 text-lg max-w-2xl mx-auto leading-relaxed">
-        Save your team's precious time. Config replaces the lengthy process of manual BOM creation with one-click BOM from your engineering assembly, all driven by CAD.
+        AI analyzes your CAD assembly to automatically generate optimal build sequences. Every step is visualized in 3D with clear instructions for operators on the shop floor.
       </p>
     </div>
 
@@ -80,12 +80,12 @@
        <div>
           <div class="flex items-center gap-3 mb-3">
              <div class="text-gray-400">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="6" height="6" rx="1"/><rect x="14" y="4" width="6" height="6" rx="1"/><rect x="4" y="14" width="6" height="6" rx="1"/><path d="M14 17h6"/></svg>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7L12 12L22 7L12 2Z"/><path d="M2 17L12 22L22 17"/><path d="M2 12L12 17L22 12"/></svg>
              </div>
-             <h3 class="text-lg font-bold text-white">Assembly Hierarchies</h3>
+             <h3 class="text-lg font-bold text-white">Automated Sequencing</h3>
           </div>
           <p class="text-sm text-gray-400 leading-relaxed">
-             Toggle and re-order assembly hierarchies by just dragging them around. No more manual marking of levels.
+             AI analyzes part dependencies and constraints to generate optimal assembly order automatically, eliminating manual planning.
           </p>
        </div>
 
@@ -93,12 +93,12 @@
        <div>
           <div class="flex items-center gap-3 mb-3">
              <div class="text-gray-400">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8"/><path d="M12 17v4"/></svg>
              </div>
-             <h3 class="text-lg font-bold text-white">Smart Redlining</h3>
+             <h3 class="text-lg font-bold text-white">Interactive 3D Steps</h3>
           </div>
           <p class="text-sm text-gray-400 leading-relaxed">
-             See what has been changed, added, or removed between your BOM revisions just by glancing at the colors.
+             Every assembly step includes interactive 3D visualization. Operators can rotate, zoom, and explore from any angle.
           </p>
        </div>
 
@@ -108,10 +108,10 @@
              <div class="text-gray-400">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.5 2v6h-6"/><path d="M2.5 22v-6h6"/><path d="M2 11.5a10 10 0 0 1 18.8-4.3L21.5 8"/><path d="M22 12.5a10 10 0 0 1-18.8 4.2L2.5 16"/></svg>
              </div>
-             <h3 class="text-lg font-bold text-white">Automatic Revision Updates</h3>
+             <h3 class="text-lg font-bold text-white">Live Sync with CAD</h3>
           </div>
           <p class="text-sm text-gray-400 leading-relaxed">
-             Keep your part revisions up to date with one-click that re-synchronizes CAD data throughout your entire assembly.
+             When engineering makes changes, work instructions update automatically. No more lagging behind design revisions.
           </p>
        </div>
 
@@ -119,12 +119,12 @@
        <div>
           <div class="flex items-center gap-3 mb-3">
              <div class="text-gray-400">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9h16"/><path d="M4 15h16"/><path d="M10 3L8 21"/><path d="M16 3l-2 18"/></svg>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M16 13H8"/><path d="M16 17H8"/><path d="M10 9H8"/></svg>
              </div>
-             <h3 class="text-lg font-bold text-white">Part Numbers</h3>
+             <h3 class="text-lg font-bold text-white">Detailed Annotations</h3>
           </div>
           <p class="text-sm text-gray-400 leading-relaxed">
-             Assign new or existing part numbers to parts right from the BOM. Never end up with duplicate part numbers ever again.
+             Add notes, callouts, and warnings to specific steps. Capture tribal knowledge from experienced operators.
           </p>
        </div>
 
@@ -134,10 +134,10 @@
              <div class="text-gray-400">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
              </div>
-             <h3 class="text-lg font-bold text-white">Change History</h3>
+             <h3 class="text-lg font-bold text-white">Time Tracking</h3>
           </div>
           <p class="text-sm text-gray-400 leading-relaxed">
-             Every change to a BOM item is recorded at both a part and BOM level for maximum traceability.
+             Track actual assembly times per step to optimize sequences and improve production planning accuracy.
           </p>
        </div>
 
@@ -145,12 +145,12 @@
        <div>
           <div class="flex items-center gap-3 mb-3">
              <div class="text-gray-400">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
              </div>
-             <h3 class="text-lg font-bold text-white">Placeholders</h3>
+             <h3 class="text-lg font-bold text-white">Operator Feedback</h3>
           </div>
           <p class="text-sm text-gray-400 leading-relaxed">
-             Ready yet? Easily sketch out your first BOM just like a spreadsheet and assign part numbers before CAD is ready.
+             Shop floor workers can report issues and suggest improvements directly within the instruction interface.
           </p>
        </div>
     </div>

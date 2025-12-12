@@ -3,13 +3,13 @@
 
 <section class="pt-20 pb-16 text-center max-w-[1200px] mx-auto px-6">
   <h1 class="text-6xl font-bold tracking-tight text-gray-900 mb-6 leading-[1.1]">
-    Superpowers for<br>Hardware Teams
+    AI-Powered Assembly<br>Work Instructions
   </h1>
   <p class="text-lg text-gray-600 mb-8 max-w-2xl mx-auto leading-relaxed">
-    Config brings together engineering, operations, and manufacturing to make shipping high-quality hardware easier at scale.
+    BuildOS automates work instruction creation from CAD files, reducing weeks of manual work to hours with AI-powered sequence generation and 3D visualization.
   </p>
-  <button class="bg-[#2563EB] text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors font-semibold text-sm mb-20 cursor-pointer">
-    Get started
+  <button class="bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition-colors font-semibold text-sm mb-20 cursor-pointer">
+    Request Demo
   </button>
 
   <!-- Exploded View Image Placeholder -->
@@ -43,23 +43,23 @@
   <div class="grid grid-cols-1 md:grid-cols-3 gap-12 mt-20 text-left">
     <div>
       <div class="text-xs font-semibold text-gray-400 mb-2">01</div>
-      <h3 class="text-xl font-bold text-gray-900 mb-2">Mechanical</h3>
+      <h3 class="text-xl font-bold text-gray-900 mb-2">CAD to Instructions</h3>
       <p class="text-sm text-gray-500 leading-relaxed">
-        Drawings and designs managed in a way that works the way you think, with automatically generated BOMs. Compatible with NX and SolidWorks.
+        Turn CAD files directly into interactive, animated assembly sequences. AI automatically generates optimal build order and step-by-step instructions.
       </p>
     </div>
     <div>
       <div class="text-xs font-semibold text-gray-400 mb-2">02</div>
-      <h3 class="text-xl font-bold text-gray-900 mb-2">Electrical</h3>
+      <h3 class="text-xl font-bold text-gray-900 mb-2">3D Visualization</h3>
       <p class="text-sm text-gray-500 leading-relaxed">
-        Manage your whole team's schematics and layouts with ease, also with automatically generated BOMs. Compatible with Altium.
+        Interactive 3D models show exactly how parts fit together. Operators can rotate, zoom, and explore assemblies from any angle in real-time.
       </p>
     </div>
     <div>
       <div class="text-xs font-semibold text-gray-400 mb-2">03</div>
-      <h3 class="text-xl font-bold text-gray-900 mb-2">Firmware</h3>
+      <h3 class="text-xl font-bold text-gray-900 mb-2">95% Faster</h3>
       <p class="text-sm text-gray-500 leading-relaxed">
-        Complete your BOM with firmware releases. Revision build assets manually and automatically with CI/CD Release integration.
+        What used to take 3-4 days now takes 1-2 hours. Automate 80% of work instruction creation and keep instructions synchronized with engineering changes.
       </p>
     </div>
   </div>

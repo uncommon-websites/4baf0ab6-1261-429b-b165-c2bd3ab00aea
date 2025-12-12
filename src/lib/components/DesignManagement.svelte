@@ -1,16 +1,16 @@
 <script>
 </script>
 
-<section class="bg-[#2563EB] text-white py-24 overflow-hidden relative">
+<section class="bg-[oklch(0.141_0.005_285.823)] text-white py-24 overflow-hidden relative">
   <!-- Background gradient effect -->
-  <div class="absolute inset-0 bg-gradient-to-b from-[#3B82F6] to-[#1D4ED8] opacity-100"></div>
+  <div class="absolute inset-0 bg-gradient-to-b from-[oklch(0.21_0.006_285.885)] to-[oklch(0.141_0.005_285.823)] opacity-100"></div>
   
   <div class="relative max-w-[1200px] mx-auto px-6 text-center">
     <h2 class="text-5xl font-bold mb-6 tracking-tight leading-tight">
-      Groundbreaking<br>Design Management
+      From CAD to Shop Floor<br>in Minutes, Not Weeks
     </h2>
-    <p class="text-blue-100 text-lg max-w-2xl mx-auto mb-16 leading-relaxed">
-      First-of-its-kind version control designed just for hardware. Config lets you track, annotate, and approve every critical decision. All without files, formats, and out-of-date versions getting in the way.
+    <p class="text-gray-300 text-lg max-w-2xl mx-auto mb-16 leading-relaxed">
+      BuildOS automatically converts your CAD assemblies into interactive work instructions. AI analyzes part relationships, generates assembly sequences, and creates step-by-step guidance—all without manual setup.
     </p>
 
     <!-- UI Mockup -->
@@ -33,25 +33,25 @@
         <!-- Sidebar -->
         <div class="w-48 bg-gray-50 border-r border-gray-200 p-3 flex flex-col gap-1">
           <div class="flex items-center gap-2 px-2 py-1.5 text-xs font-medium text-gray-600 hover:bg-gray-200 rounded cursor-pointer">
-            <span class="opacity-70">🕒</span> Recently opened
+            <span class="opacity-70">🕒</span> Recent
           </div>
           <div class="flex items-center gap-2 px-2 py-1.5 text-xs font-medium text-gray-900 bg-white shadow-sm border border-gray-200 rounded cursor-pointer">
-            <span class="opacity-70">📦</span> Your designs
+            <span class="opacity-70">📋</span> Instructions
           </div>
           <div class="flex items-center gap-2 px-2 py-1.5 text-xs font-medium text-gray-600 hover:bg-gray-200 rounded cursor-pointer">
             <span class="opacity-70">🧩</span> Assemblies
           </div>
           <div class="flex items-center gap-2 px-2 py-1.5 text-xs font-medium text-gray-600 hover:bg-gray-200 rounded cursor-pointer">
-            <span class="opacity-70">⚙️</span> Piece parts
+            <span class="opacity-70">⚙️</span> Components
           </div>
           <div class="flex items-center gap-2 px-2 py-1.5 text-xs font-medium text-gray-600 hover:bg-gray-200 rounded cursor-pointer">
-            <span class="opacity-70">⚡</span> Electrical parts
+            <span class="opacity-70">📊</span> Analytics
           </div>
           <div class="flex items-center gap-2 px-2 py-1.5 text-xs font-medium text-gray-600 hover:bg-gray-200 rounded cursor-pointer">
-            <span class="opacity-70">📂</span> All designs
+            <span class="opacity-70">📂</span> All projects
           </div>
           
-          <div class="mt-auto text-[10px] text-gray-400 px-2">88 designs</div>
+          <div class="mt-auto text-[10px] text-gray-400 px-2">142 instructions</div>
         </div>
 
         <!-- Main List -->
@@ -59,7 +59,7 @@
           <div class="border-b border-gray-100 p-3">
              <div class="relative">
                 <span class="absolute left-2 top-1.5 text-gray-400 text-xs">🔍</span>
-                <input type="text" placeholder="Search parts and designs..." class="w-full bg-gray-50 border border-gray-200 rounded pl-7 pr-3 py-1 text-xs focus:outline-none focus:border-blue-500">
+                <input type="text" placeholder="Search assemblies and instructions..." class="w-full bg-gray-50 border border-gray-200 rounded pl-7 pr-3 py-1 text-xs focus:outline-none focus:border-blue-500">
              </div>
           </div>
           <div class="flex-1 overflow-y-auto">
@@ -110,7 +110,7 @@
         <!-- Right Panel -->
         <div class="w-80 bg-white border-l border-gray-200 flex flex-col">
           <div class="p-3 border-b border-gray-100 flex justify-between items-center">
-             <span class="text-[10px] font-bold text-gray-400 uppercase tracking-wider">Part Detail</span>
+             <span class="text-[10px] font-bold text-gray-400 uppercase tracking-wider">Assembly Detail</span>
              <button class="text-[10px] border border-gray-200 rounded px-2 py-1 hover:bg-gray-50 flex items-center gap-1">
                 <span>👤</span> Take over as DRI
              </button>
@@ -179,7 +179,7 @@
                 <span>Do not load dependencies</span>
              </div>
              <div class="flex gap-2">
-                <button class="bg-white border border-gray-200 text-gray-700 text-[10px] px-2 py-1 rounded hover:bg-gray-50">View on Config</button>
+                <button class="bg-white border border-gray-200 text-gray-700 text-[10px] px-2 py-1 rounded hover:bg-gray-50">View in BuildOS</button>
                 <button class="bg-blue-600 text-white text-[10px] px-2 py-1 rounded hover:bg-blue-700">Open</button>
              </div>
           </div>
@@ -192,12 +192,12 @@
        <div class="flex items-center gap-4 border-r border-gray-600 pr-4">
           <div class="w-8 h-8 bg-white rounded flex items-center justify-center font-bold text-black text-xs">NX</div>
           <div class="w-8 h-8 bg-red-600 rounded flex items-center justify-center font-bold text-white text-xs">S</div>
-          <div class="w-8 h-8 bg-yellow-600 rounded flex items-center justify-center font-bold text-black text-xs">A</div>
+          <div class="w-8 h-8 bg-blue-600 rounded flex items-center justify-center font-bold text-white text-xs">C</div>
        </div>
        <p class="text-xs text-gray-400 text-left flex-1">
-          Config works right out of the box with the CAD software of your choice. Manage designs, commit changes, and create revisions for mechanical and electrical designs directly from NX, SolidWorks, or Altium.
+          BuildOS integrates seamlessly with leading CAD systems including NX, SolidWorks, and Creo. Import assemblies directly and let AI handle the rest.
        </p>
-       <button class="bg-[#2563EB] text-white px-3 py-1.5 rounded text-xs font-semibold hover:bg-blue-600">Get started</button>
+       <button class="bg-white text-gray-900 px-3 py-1.5 rounded text-xs font-semibold hover:bg-gray-100">Request Demo</button>
     </div>
   </div>
 </section>

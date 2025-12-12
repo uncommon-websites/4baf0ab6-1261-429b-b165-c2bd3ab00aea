@@ -5,10 +5,10 @@
   <div class="max-w-[1200px] mx-auto px-6">
     <div class="mb-16">
       <h2 class="text-5xl font-bold mb-6 tracking-tight text-gray-900 leading-tight">
-        Finally. Your Team, on<br>the Same Page
+        Reconnecting Engineering<br>with Manufacturing
       </h2>
       <p class="text-lg text-gray-600 max-w-2xl leading-relaxed">
-        Config brings together all your teams to speed up and simplify shipping high-quality hardware.
+        BuildOS bridges the gap between CAD design and shop floor reality. Bring mechanical engineers back from the back office to where products are actually built.
       </p>
     </div>
 
@@ -16,11 +16,11 @@
       <!-- Left Column Group -->
       <div class="lg:col-span-2 flex flex-col gap-6">
         <!-- Builds and Procurement Card -->
-        <div class="bg-gradient-to-br from-[#4B88A2] to-[#3B7288] rounded-2xl p-8 text-white relative overflow-hidden h-[400px]">
+        <div class="bg-gradient-to-br from-[oklch(0.508_0.118_165.612)] to-[oklch(0.432_0.095_166.913)] rounded-2xl p-8 text-white relative overflow-hidden h-[400px]">
            <div class="relative z-10">
-              <h3 class="text-xl font-bold mb-2">Builds and Procurement</h3>
-              <p class="text-blue-100 text-sm max-w-sm mb-8">
-                 Birds-eye view of your build progress without relying on out-of-date and error-prone spreadsheets.
+              <h3 class="text-xl font-bold mb-2">Production Dashboard</h3>
+              <p class="text-gray-100 text-sm max-w-sm mb-8">
+                 Real-time visibility into assembly progress across all work orders. Track completion rates and identify bottlenecks instantly.
               </p>
               
               <!-- Chart UI -->
@@ -94,45 +94,43 @@
 
         <!-- Bottom Row -->
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-           <!-- Smart Part Numbers -->
+           <!-- Error Reduction -->
            <div class="bg-[#1F2937] rounded-2xl p-8 text-white flex flex-col justify-between h-[280px]">
               <div>
-                 <h3 class="text-lg font-bold mb-2">Smart Part Numbers</h3>
+                 <h3 class="text-lg font-bold mb-2">Error Reduction</h3>
                  <p class="text-gray-400 text-xs mb-4">
-                    Designate part type-specific families in highly customizable number schemes.
+                    Clear visual instructions reduce assembly errors and rework. New operators get up to speed faster.
                  </p>
               </div>
               <div class="text-center mt-auto">
                  <div class="text-5xl font-mono font-bold tracking-tighter flex items-center justify-center gap-2">
-                    <span class="text-gray-500">415</span>
-                    <span class="text-gray-600">-</span>
-                    <span class="text-white">1986</span>
+                    <span class="text-gray-500">80</span>
+                    <span class="text-white">%</span>
                  </div>
-                 <div class="flex justify-between px-8 mt-2 text-[10px] text-gray-500 uppercase tracking-widest">
-                    <span>Commodity Code</span>
-                    <span>Part Identifier</span>
+                 <div class="mt-2 text-[10px] text-gray-500 uppercase tracking-widest">
+                    Fewer Assembly Defects
                  </div>
               </div>
            </div>
 
-           <!-- One-Click Ownership -->
-           <div class="bg-[#1D4ED8] rounded-2xl p-8 text-white flex flex-col items-center text-center justify-center h-[280px]">
+           <!-- Fast Onboarding -->
+           <div class="bg-[oklch(0.141_0.005_285.823)] rounded-2xl p-8 text-white flex flex-col items-center text-center justify-center h-[280px]">
               <div class="bg-white text-gray-900 px-4 py-2 rounded-lg font-bold text-sm mb-6 shadow-lg flex items-center gap-2">
-                 <span>👤</span> Takeover as DRI
+                 <span>⚡</span> 3-4 Days → 1-2 Hours
               </div>
-              <h3 class="text-lg font-bold mb-2">One-Click Ownership</h3>
-              <p class="text-blue-200 text-xs">
-                 You don't have to give up accountability to make hand-off easier. Easily take ownership of any part.
+              <h3 class="text-lg font-bold mb-2">Faster Time to Production</h3>
+              <p class="text-gray-300 text-xs">
+                 Get new products to the shop floor 95% faster. Instructions are ready when engineering is done designing.
               </p>
            </div>
         </div>
       </div>
 
       <!-- Right Column -->
-      <div class="bg-gradient-to-br from-[#BE4B6A] to-[#9B3B55] rounded-2xl p-8 text-white relative overflow-hidden h-full min-h-[600px]">
-         <h3 class="text-xl font-bold mb-2">Capture Every Decision</h3>
-         <p class="text-pink-100 text-sm mb-8">
-            Fully reviewable revision and commit history for every part in your project. Never question which version or which part ever again.
+      <div class="bg-gradient-to-br from-[oklch(0.508_0.118_165.612)] to-[oklch(0.432_0.095_166.913)] rounded-2xl p-8 text-white relative overflow-hidden h-full min-h-[600px]">
+         <h3 class="text-xl font-bold mb-2">Version Control for Instructions</h3>
+         <p class="text-gray-100 text-sm mb-8">
+            Every instruction revision is tracked and preserved. See exactly what changed, when, and why. Roll back to previous versions instantly.
          </p>
          
          <!-- Timeline UI -->

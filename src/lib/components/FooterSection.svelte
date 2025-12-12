@@ -1,16 +1,16 @@
 <script>
   const features = [
-    "Stricted permissions", "Vendor access to bill of materials", "Vendor management", "Deletions of data prevented, write-only", "Every commit preserved", "Team permissions",
-    "Assembly reparenting within a bill of materials", "Generate a bill of materials from a design", "Design releases", "Clear to build management", "Vendor management", "Easily load a bill of materials from a design",
-    "Detailed bill of materials item history", "Revision tracking for all parts", "Alternates tracking", "Live redlined bill of materials changes", "3D CAD viewers", "Mechanical drawings",
-    "Detailed bill of materials item history", "Revision tracking for all parts", "Alternates tracking", "Live redlined bill of materials changes", "Firmware versioning",
-    "Electrical bills of materials", "Electrical layouts", "Electrical schematics", "Full bill of materials edit history", "Mechanical bills of materials", "Project access for members",
-    "Vendor management", "Vendor access to bill of materials", "Deletions of data prevented, write-only", "Team permissions", "Generate a bill of materials from a design",
-    "Design releases", "Vendor restricted permissions", "Clear to build management", "Vendor management", "Easily load a bill of materials from a design", "Detailed bill of materials item history",
-    "Part number management", "Procurement tracking", "Clear to build management", "Design releases", "Create custom columns for a bill of materials of filtering",
-    "Mechanical drawings", "3D CAD viewers", "Revision tracking for all parts", "Alternates tracking", "Create custom columns for a bill of materials of filtering", "Download attachments from bill of materials",
-    "Create custom columns for a bill of materials", "Full bill of materials edit history", "Live redlined bill of materials changes", "Electrical schematics",
-    "Firmware versioning", "Electrical layouts", "Full bill of materials edit history", "Live redlined bill of materials changes"
+    "AI-powered sequence generation", "CAD to instruction automation", "3D interactive visualization", "Real-time assembly tracking", "Operator feedback loops", "Version control for instructions",
+    "Automated step generation", "Multi-CAD support", "NX integration", "SolidWorks integration", "Creo integration", "Assembly dependency analysis",
+    "Interactive 3D models", "Step-by-step guidance", "Visual work instructions", "Operator dashboards", "Production analytics", "Time tracking per step",
+    "Quality control checkpoints", "Error reduction metrics", "Assembly validation", "DFM analysis integration", "Engineering change sync", "Revision management",
+    "SOC 2 Type 2 compliance", "AWS GovCloud support", "ITAR compliance", "Self-hosting options", "Secure deployment", "Role-based access control",
+    "Shop floor tablets", "Mobile device support", "Browser-based access", "Offline mode", "Real-time collaboration", "Multi-language support",
+    "Runs dashboard", "Production metrics", "Bottleneck identification", "Completion tracking", "Performance analytics", "Custom reporting",
+    "Tribal knowledge capture", "Annotation tools", "Comment threads", "Approval workflows", "Change history", "Audit trails",
+    "Automated documentation", "PDF export", "Print-friendly formats", "Digital twin integration", "PLM connectivity", "ERP integration",
+    "Training mode", "Onboarding tools", "Skill tracking", "Operator certification", "Knowledge base", "Best practices library",
+    "Aerospace assemblies", "Defense manufacturing", "Automotive production", "Medical devices", "Agriculture equipment", "Shipbuilding operations"
   ];
 </script>
 
@@ -34,11 +34,11 @@
           <div class="absolute inset-2 bg-gray-800 rounded-2xl flex flex-col items-center justify-center overflow-hidden">
              <!-- Screen -->
              <div class="w-full h-1/2 bg-black flex items-center justify-center border-b border-gray-700">
-                <span class="text-4xl">✌️</span>
+                <span class="text-4xl">🏭</span>
              </div>
              <!-- Keys -->
              <div class="w-full h-1/2 grid grid-cols-3 gap-1 p-2 bg-gray-700">
-                <div class="bg-orange-500 rounded-full shadow-inner"></div>
+                <div class="bg-[oklch(0.696_0.17_162.48)] rounded-full shadow-inner"></div>
                 <div class="bg-gray-600 rounded-full shadow-inner"></div>
                 <div class="bg-gray-600 rounded-full shadow-inner"></div>
                 <div class="bg-gray-600 rounded-full shadow-inner"></div>
@@ -49,10 +49,10 @@
        </div>
        
        <p class="text-lg text-gray-600 mb-8 leading-relaxed">
-          Do you want to revolutionize how your team collaborates and builds hardware together? You need Config.
+          Ready to transform your assembly operations? Join 60+ manufacturers using BuildOS to strengthen American manufacturing.
        </p>
-       <button class="bg-[#2563EB] text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors font-semibold text-sm">
-          Get started
+       <button class="bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition-colors font-semibold text-sm">
+          Request Demo
        </button>
     </div>
   </div>
@@ -63,20 +63,20 @@
         <div class="flex items-center gap-2">
            <div class="w-5 h-5 bg-white text-black rounded flex items-center justify-center">
               <svg width="12" height="12" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M12 2L2 7V17L12 22L22 17V7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                  <path d="M12 8L16 10V14L12 16L8 14V10L12 8Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M3 3L21 3L21 21L3 21L3 3Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M3 9L21 9M3 15L21 15M9 3L9 21M15 3L15 21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
               </svg>
            </div>
-           <span class="font-bold text-sm">Config @ 2025</span>
-           <span class="text-gray-500 text-xs ml-2">Designed in the United States</span>
+           <span class="font-bold text-sm">Dirac © 2025</span>
+           <span class="text-gray-500 text-xs ml-2">Built in Manhattan, New York</span>
         </div>
         
         <div class="flex items-center gap-6 text-xs text-gray-400">
            <a href="#" class="hover:text-white">Sign in</a>
-           <a href="#" class="hover:text-white">Get started</a>
-           <a href="#" class="hover:text-white">Terms</a>
+           <a href="#" class="hover:text-white">Request Demo</a>
+           <a href="#" class="hover:text-white">Careers</a>
            <a href="#" class="hover:text-white">Privacy</a>
-           <a href="#" class="hover:text-white">Twitter</a>
+           <a href="#" class="hover:text-white">LinkedIn</a>
         </div>
      </div>
   </footer>
